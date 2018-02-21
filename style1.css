@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* my style sheet*/
+.container
+{
+  width:80%;
+  margin:0px auto;
+  display: flex;
+	padding: 3% 0px;
+}
+
+.heading
+{
+  background: grey;
+  color:white;
+}
+.search
+{
+	margin-left:30%;
+	width:20%;
+	float:right;
+}
+.search input
+{
+	padding:2.5%;
+}
+.search button
+{
+	padding:2%;
+	border-radius: 3%;
+	background: green;
+}
+.navbar {
+	width:50%;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav
+{
+  width:20%;
+  float:left;
+margin-right: 5%;
+}
+h2
+{
+  font-size:40px;
+  font-family: bold;
+  padding-bottom: 5%;
+}
+
+.list-group
+{
+	width:100%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+.list-group-item
+{
+	display: flex;
+	width:100%;
+	text-decoration: none;
+	font-size: 15px;
+}
+.main
+{
+  width:70%;
+  float:left;
+}
+.details
+{
+  width:100%;
+}
+.productlist
+{
+  width:33%;
+  float:left;
+	border: 1px solid white;
+}
+.thumbnail
+{
+	text-align: center;
+  width:100%;
+}
+.caption
+{
+	text-align: center;
+  width:100%;
+}
+.pages
+{
+  text-align: center;
+  width:100%;
+}
+button
+{
+  padding: 2%;
+}
